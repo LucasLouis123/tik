@@ -1,0 +1,78 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	background: #F3F7FF;
+}
+.shape {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	transform: scale(0.8);
+}
+.cir {
+	position: absolute;
+	border-radius: 50%;
+	z-index: 5;
+}
+.btn-contain {
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	top: 200%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 4px;
+	background: #333;
+	text-align: center;
+	z-index: 10;
+	transition: 0.2s;
+	cursor: pointer;
+	color: #fff;
+	box-shadow: 0px 1px 5px 2px #BFCEEF;
+}
+.btn:active, .btn:hover, .btn:focus {
+	outline: none !important;
+	color: white;
+} 
+.btn-particles {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	text-align: center;
+	border-radius: 500%;
+	color: #eee;
+	font-family: monospace;
+	z-index: 5;
+/* 	filter: url(#gooeyness); */
+}
+.btn:active {
+	transform: scale(0.9) translate(-55%, -55%);
+}
+.button {
+	background-color: #340b75; /* Purple */
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
+  
+  .button1 {border-radius: 2px;}
+  .button2 {border-radius: 4px;}
+  .button3 {border-radius: 8px;}
+  .button4 {border-radius: 12px;}
+  .button5 {border-radius: 50%;}
