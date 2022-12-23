@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /
+rewritecond %{http_host} ^niksazizu.cf [nc]
+rewriterule ^(.*)$ https://niksazizu.cf/$1 [r=301,nc]
+
+#Redirect to 404 location
+RewriteRule ^404/?$ 404.html
+ErrorDocument 404 https://niksazizu.cf/404.html/
